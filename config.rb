@@ -14,6 +14,7 @@ configure :build do
   activate :asset_hash
   activate :relative_assets
   set :relative_links, true
+  config[:host] = 'https://aroubaud.github.io/middleman-airbnb'
 end
 
 activate :deploy do |deploy|
